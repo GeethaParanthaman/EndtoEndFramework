@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-15T10:06:47 IST" name="Default suite" finished-at="2024-12-15T10:07:02 IST" duration-ms="14960">
+    <groups>
+    </groups>
+    <test started-at="2024-12-15T10:06:47 IST" name="Default test" finished-at="2024-12-15T10:07:02 IST" duration-ms="14960">
+      <class name="main.SignUpTest">
+        <test-method is-config="true" signature="setupReport()[pri:0, instance:main.SignUpTest@51c668e3]" started-at="2024-12-15T10:06:46 IST" name="setupReport" finished-at="2024-12-15T10:06:47 IST" duration-ms="232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method is-config="true" signature="browserLaunch(java.lang.reflect.Method)[pri:0, instance:main.SignUpTest@51c668e3]" started-at="2024-12-15T10:06:47 IST" name="browserLaunch" finished-at="2024-12-15T10:06:54 IST" duration-ms="6961" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void main.SignUpTest.signupFlow()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="signupFlow()[pri:1, instance:main.SignUpTest@51c668e3]" started-at="2024-12-15T10:06:54 IST" name="signupFlow" finished-at="2024-12-15T10:06:56 IST" duration-ms="2124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupFlow -->
+        <test-method is-config="true" signature="browserLaunch(java.lang.reflect.Method)[pri:0, instance:main.SignUpTest@51c668e3]" started-at="2024-12-15T10:06:56 IST" name="browserLaunch" finished-at="2024-12-15T10:07:00 IST" duration-ms="3835" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void main.SignUpTest.loginFlow()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="loginFlow()[pri:2, instance:main.SignUpTest@51c668e3]" started-at="2024-12-15T10:07:00 IST" name="loginFlow" finished-at="2024-12-15T10:07:02 IST" duration-ms="1997" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFlow -->
+        <test-method is-config="true" signature="flushReport()[pri:0, instance:main.SignUpTest@51c668e3]" started-at="2024-12-15T10:07:02 IST" name="flushReport" finished-at="2024-12-15T10:07:02 IST" duration-ms="342" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+      </class> <!-- main.SignUpTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
